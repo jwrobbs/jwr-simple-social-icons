@@ -1,6 +1,10 @@
 <?php
 /**
  * Plugin Name: Simple Social Icons shortcode
+ * Version: 0.2.3
+ * Author: Josh Robbs
+ * Author URI: https://joshrobbs.com
+ * Plugin URI: https://github.com/jwrobbs/jwr-control-panel
  *
  * @author Josh Robbs <josh@joshrobbs.com>
  * @since 2024-02-13
