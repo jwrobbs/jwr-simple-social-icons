@@ -76,7 +76,7 @@ class SSI_Shortcode {
 		$sprite_url  = \JWR_SSI_SPRITE_URL;
 
 		$html = <<<HTML
-			<a class='ssi-${lower_channel}' target='_blank' href='${channel_url}'><img src='${sprite_url}' alt='Josh on ${channel}' class='ssi-icon'></a>
+			<a class='ssi-{$lower_channel}' target='_blank' href='{$channel_url}'><img src='{$sprite_url}' alt='Josh on {$channel}' class='ssi-icon'></a>
 		HTML;
 		return $html;
 	}
