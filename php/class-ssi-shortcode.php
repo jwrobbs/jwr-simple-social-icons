@@ -130,6 +130,10 @@ class SSI_Shortcode {
 				.ssi .ssi-twitter img {
 					clip-path: polygon(1px 1px, 32px 1px, 32px 31px, 1px 31px);
 				}
+				.ssi .ssi-twitter img,
+				.ssi .ssi-github img{
+					filter: invert(1);
+				}
 			</style>
 		CSSx;
 
